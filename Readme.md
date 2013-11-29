@@ -1,4 +1,4 @@
-# Flatten
+# Flatten Packages
 
 Flatten packages in node_modules
 
