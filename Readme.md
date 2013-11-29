@@ -12,7 +12,7 @@ $ npm install -g flatten
 
 ## How to use
 
-Run executable `flatten` to aggressively rearrange all packages in node_modules folder in the project directory. By aggressive, it will delete older version of a package. You should take care of version breaking changes related errors.
+Run executable `flatten` to rearrange all packages in node_modules folder in the project directory. Flatten will delete older version of a package. You should take care of version breaking changes related errors.
 
 ```
 $ cd PROJECT_DIRECTORY
