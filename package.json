@@ -17,8 +17,10 @@
     "url": "https://github.com/arifsetiawan/flatten"
   },
   "keywords": [
-    "flat",
-    "modules"
+    "flatten",
+    "flat"
+    "node_modules",
+    "package"
   ],
   "author": {
     "name": "Nurul Arif Setiawan",

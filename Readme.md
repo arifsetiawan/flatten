@@ -27,6 +27,14 @@ $ flatten-packages PROJECT_DIRECTORY
 
 PROJECT_DIRECTORY is a project directory, not a node_modules directory in PROJECT_DIRECTORY
 
+## Info mode
+
+You can use info mode by adding `-i` to the command. It will list all duplicate packages.
+
+```
+$ flatten-packages PROJECT_DIRECTORY -i
+```
+
 ## Automatic deployment
 
 When using automated deployment which will execute `npm install` before running your nodejs script, you will need to somehow execute `flatten-packages` after all dependencies are installed. 
