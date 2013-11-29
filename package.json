@@ -1,0 +1,38 @@
+{
+  "name": "flatten",
+  "version": "0.1.0",
+  "description": "flat packages in node_modules ",
+  "main": "index.js",
+  "bin": {
+    "flatten": "./bin/flatten"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifsetiawan/flatten"
+  },
+  "keywords": [
+    "flat",
+    "modules"
+  ],
+  "author": {
+    "name": "Nurul Arif Setiawan",
+    "email": "n.arif.setiawan@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arifsetiawan/flatten/issues"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "semver": "~2.2.1",
+    "wrench": "~1.5.4",
+    "commander": "~2.1.0"
+  },
+  "homepage": "https://github.com/arifsetiawan/flatten"
+}
