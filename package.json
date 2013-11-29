@@ -1,10 +1,10 @@
 {
-  "name": "flatten",
+  "name": "flatten-packages",
   "version": "0.1.0",
   "description": "flat packages in node_modules ",
   "main": "index.js",
   "bin": {
-    "flatten": "./bin/flatten"
+    "flatten-packages": "./bin/flatten"
   },
   "engines": {
     "node": "*"
@@ -29,10 +29,10 @@
     "url": "https://github.com/arifsetiawan/flatten/issues"
   },
   "dependencies": {
-    "async": "~0.2.9",
     "semver": "~2.2.1",
     "wrench": "~1.5.4",
-    "commander": "~2.1.0"
+    "commander": "~2.1.0",
+    "colors": "~0.6.2"
   },
   "homepage": "https://github.com/arifsetiawan/flatten"
 }
