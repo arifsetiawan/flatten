@@ -19,17 +19,17 @@ $ cd PROJECT_DIRECTORY
 $ flatten-packages
 ```
 
-You can specify PROJECT_DIRECTORY to flatten
+You can specify `PROJECT_DIRECTORY` to flatten
 
 ```
 $ flatten-packages PROJECT_DIRECTORY
 ```
 
-PROJECT_DIRECTORY is a project directory, not a node_modules directory in PROJECT_DIRECTORY
+`PROJECT_DIRECTORY` is a project directory, not a node_modules directory in `PROJECT_DIRECTORY`
 
 ## Info mode
 
-You can use info mode by adding `-i` to the command. It will list all duplicate packages.
+You can use info mode by adding `-i` to the command. It will list all duplicate packages. Info mode do not flatten `PROJECT_DIRECTORY`
 
 ```
 $ flatten-packages PROJECT_DIRECTORY -i
