@@ -35,6 +35,14 @@ You can use info mode by adding `-i` to the command. It will list all duplicate 
 $ flatten-packages PROJECT_DIRECTORY -i
 ```
 
+## Print first level node_modules
+
+Sometimes you need to fill dependency part of package.json. Use can use printed output using `-p`
+
+```
+$ flatten-packages PROJECT_DIRECTORY -p
+```
+
 ## Automatic deployment
 
 When using automated deployment which will execute `npm install` before running your nodejs script, you will need to somehow execute `flatten-packages` after all dependencies are installed. 

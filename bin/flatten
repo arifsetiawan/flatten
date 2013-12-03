@@ -4,16 +4,27 @@ var program = require('commander')
 var pkg = require('../package.json')
 var version = pkg.version
 var flatten = require('../lib/flatten')
+var printmodules = require('../lib/print')
 
 program
   .version(version)
   .usage('[options] [dir]')
   .option('-i, --info', 'Show only information about node_modules without flattening it')
+  .option('-p, --print', 'Helper function to print node_modules content. Usefull to fill package.json dependencies. Only first level is printed')
   .parse(process.argv)
 
 var path = program.args.shift() || '.'
 
-flatten(path, { info: program.info }, function (err, res) {
-  if (err) console.error(err)
-  if (res) return console.log(res)
-});
+if (program.print) {
+  printmodules(path, function (err, res) {
+    if (err) console.error(err)
+    if (res) return console.log(res)
+  });
+}
+else {
+  flatten(path, { info: program.info }, function (err, res) {
+    if (err) console.error(err)
+    if (res) return console.log(res)
+  });
+}
+
