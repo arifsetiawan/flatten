@@ -27,4 +27,3 @@ else {
     if (res) return console.log(res)
   });
 }
-
