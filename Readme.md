@@ -1,3 +1,7 @@
+# This Project is Not Maintained Anymore
+
+I am not working with Node.js nowadays, so I am not maintaining this module. Latest `npm` already flat dependencies by default and if you use latest Node.js version, you don't need `flatten-packages`.
+
 # Flatten Packages
 
 Flatten packages in node_modules
